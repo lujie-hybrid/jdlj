@@ -1,7 +1,7 @@
 /*
  * @author: lujie
  * @Date: 2020-07-24 11:19:28
- * @LastEditTime: 2020-08-03 14:02:51
+ * @LastEditTime: 2020-08-25 16:14:10
  * @FilePath: \jdlj\lib\tabs\category.dart
  * @descripttion: [desc]
  * @editor: [your git name]
@@ -126,7 +126,7 @@ class _JdCategoryState extends State<JdCategory>
             itemCount: _rightCe.length,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 3,
-                childAspectRatio: w / h,
+                childAspectRatio: w / h * 0.9,
                 crossAxisSpacing: ScreenAdaptor.height(10.0),
                 mainAxisSpacing: ScreenAdaptor.height(10.0)),
             itemBuilder: (ctx, index) {

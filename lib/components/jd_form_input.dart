@@ -58,6 +58,5 @@ class _JdFormInputState extends State<JdFormInput> {
           hintText: widget.placeholder,
           hintStyle: TextStyle(color: Color.fromRGBO(0, 0, 0, 0.2))),
     );
-    ;
   }
 }

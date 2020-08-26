@@ -1,7 +1,7 @@
 /*
  * @author: lujie
  * @Date: 2020-07-24 09:19:43
- * @LastEditTime: 2020-07-24 09:26:21
+ * @LastEditTime: 2020-08-26 13:14:17
  * @FilePath: \jdlj\lib\push.dart
  * @descripttion: [desc]
  * @editor: [lj]
@@ -26,8 +26,8 @@ class JdPush {
     jpush.setup(
       appKey: "6fd8c42327a1af3a7850cf4d", //你自己应用的 AppKey
       channel: "theChannel",
-      production: false,
-      debug: true,
+      production: true,
+      debug: false,
     );
 
     // Platform messages may fail, so we use a try/catch PlatformException.
